@@ -4,3 +4,5 @@ build/*
 .sonar/*
 .sonarlint/*
 log.txt
+*.1CD
+*.cfl
