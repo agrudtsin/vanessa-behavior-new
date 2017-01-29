@@ -18,5 +18,5 @@ IF "%~1"=="" (
 
 
 echo "vanessa"
-oscript -encoding=utf-8 %mypath%/runner.os vanessa --path "%BUILDPATH%/out/vanessa-behavior.epf" --pathsettings "%mode%"
+oscript %mypath%/runner.os vanessa --path "%BUILDPATH%/out/vanessa-behavior.epf" --pathsettings "%mode%"
 exit /B
